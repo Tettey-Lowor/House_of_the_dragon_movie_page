@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif
+}
+body{
+    background: url(/Assets/house-of-the-dragon-season-2-1.avif); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: linear-gradient(0,0, 0.5);
+}
+#header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+#header .logo{
+    color: red;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+#header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    text-decoration: none;
+}
+#header ul li{
+    list-style: none;
+    font-size:x-large;
+    margin-left: 20px;
+}
+#header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: ghostwhite;
+    border-radius: 2px;
+}
+#header ul li a:hover{
+    background: linear-gradient( 45deg, red, rgb(245, 14, 122));
+    color: rgb(253, 252, 252);
+
+}
+section{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .content{
+    position: absolute;
+    left: 2px;
+    top: 625px; 
+}
+section .content .details span{
+position: relative;
+top: -230px;
+left: 108px;
+color:ghostwhite;
+margin: 12px;
+font-weight: 400;
+font-size: large;
+}
+.details span:last-child{
+    border: 1px solid rgb(182,181,181);
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.button span{
+    position: relative;
+    top:100px;
+    left: 40%;
+    color: white;
+    margin: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.button .btn1{
+    background: red;
+    padding: 14px 26px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.button .btn1:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.button .btn2{
+    background: blueviolet;
+    padding: 14px 26px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.button .btn2:hover{
+    opacity: 0.8;
+    cursor:grab;
+    background: black;
+    color: brown;
+}
+section::before{
+    content:'';
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height:120px;
+    background: linear-gradient(to top, gray, transparent);
+    z-index: -1;
+    overflow: hidden;
+}
+.sec{
+    margin-top: 10%;
+    background-color: #0B1413;
+    height:100%;
+    padding-right: 20px;
+}
+
+
+.Team-types{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  
+  gap: 140px;
+  /* background-color: black; */
+  border-radius: 10px;
+  padding: 90px;
+  color: white;
+  width: 95%
+  ;display: flex;
+  padding-right: 100%;
+  }
+  .Team-Names h4{
+    margin-top: 10px;
+    font-size: x-large;
+    padding-left: 70px;
+  }
+  .Team{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px ;
+    
+  }
+  
+  
+
+  .Team-Names img{
+    height: 250px;
+     width: 170%; 
+     border-radius: 10px;
+  }
+  
+  .meet{
+    color: white;
+    align-items: center;
+    padding-left: 45%;
+    margin-top: 30px;
+    padding-top: 35px;
+  }
+  .season{
+    margin-right: 50px;
+    width: 100%;
+    padding-right: 30px;
+  }
+  
